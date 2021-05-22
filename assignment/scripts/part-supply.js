@@ -19,9 +19,10 @@ console.log('3. Item at index 2 is:', supplyChanges[2]);
 //    array & console.log the value removed.
 let removedsupplyChanges = supplyChanges.pop ();
 console.log('4. Removed item:', removedsupplyChanges);
-//removed last array item and console logged value. 
+//removed last array item, '11' and console logged value.
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
+supplyChanges.push('25');
 console.log('5. Adding 25 to supplyChanges.');
 
 // 6. Write a `for` loop that shows each value in the 'supplyChanges' array
